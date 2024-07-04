@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fullname: MyText
+  phonenumber: MyString
+  emailadress: MyString
+  weight: 1
+  length: 1
+  width: 1
+  height: 1
+  departurepoint: MyString
+  destinationpoint: MyString
+
+two:
+  fullname: MyText
+  phonenumber: MyString
+  emailadress: MyString
+  weight: 1
+  length: 1
+  width: 1
+  height: 1
+  departurepoint: MyString
+  destinationpoint: MyString

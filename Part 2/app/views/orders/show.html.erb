@@ -1,0 +1,15 @@
+<p>ФИО: <%= @order.fullname%></p>
+<p>Телефон: <%= @order.phonenumber%></p>
+<p>Email: <%= @order.emailadress%></p>
+<p>Данные о грузе: </p>
+<p>Вес: <%= @order.weight%></p>
+<p>Длина: <%= @order.length%></p>
+<p>Ширина: <%= @order.width%></p>
+<p>Высота: <%= @order.height%></p>
+<p>Пункт отправления: <%= @order.departurepoint%></p>
+<p>Пункт назначения: <%= @order.destinationpoint%></p>
+<p>Вывод:</p>
+<p>Расстояние: <%= @order.distance%></p>
+<p>Цена: <%= @order.price%></p>
+
+<%= link_to "На главную.", "./" %>

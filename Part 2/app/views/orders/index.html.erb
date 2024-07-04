@@ -1,0 +1,57 @@
+<h1>Новая заявка</h1>
+
+<%= form_with model: @order do |form| %>
+    <div>
+        Fullname<br>
+        <%= form.text_field :fullname %>
+    </div>
+
+    <div>
+        Phone number<br>
+        <%= form.text_field :phonenumber %>
+    </div>
+
+    <div>
+        Email<br>
+        <%= form.text_field :emailadress %>
+    </div>
+
+    <div>
+        <%= form.label :weight %><br>
+        <%= form.number_field :weight %>
+    </div>
+
+    <div>
+        <%= form.label :length %><br>
+        <%= form.number_field :length %>
+    </div>
+
+    <div>
+        <%= form.label :width %><br>
+        <%= form.number_field :width %>
+    </div>
+
+    <div>
+        <%= form.label :height %><br>
+        <%= form.number_field :height %>
+    </div>
+
+    <div>
+        Departure point<br>
+        <%= form.text_field :departurepoint %>
+    </div>
+
+    <div>
+        Destination point<br>
+        <%= form.text_field :destinationpoint %>
+    </div>
+
+    <div>
+        <%= form.submit %>
+    </div>
+
+<% end %>
+
+<style>
+    div {margin-bottom:10px;}
+</style>
